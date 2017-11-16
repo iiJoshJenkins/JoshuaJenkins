@@ -1,0 +1,39 @@
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+#login-dropdown{
+    min-width: 250px;
+}
+
+.social-buttons{
+    margin: 12px;
+}
+
+.social-buttons a{
+    width: 49%;
+}
+
+.no-rounded-corners{
+    border-radius: 0;
+}
+
+.navbar-brand{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right-style: inset;
+    border-right-width: 2px;
+    border-right-color: #1A1F24;
+}

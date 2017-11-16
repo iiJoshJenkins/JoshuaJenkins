@@ -3,30 +3,79 @@
     <head>
         <meta charset="utf-8">
         <title>Home</title>
-        <link rel="stylesheet" href="css/stylesheet.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> Joshua Jenkins </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-toggle">
+                    <ul class="nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Page 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">My Games</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        Already have an account?
+                    </span>
+                    <ul class="navbar-nav mt-4 mt-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                <b>Login</b> <span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right" id="login-dropdown">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <span> Login Via </span>
+                                        <div class="social-buttons">
+        									<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+        									<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+        								</div>
+                                        <span> or </span>
+                                         <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                                <div class="form-group">
+                                                     <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                                     <input type="email" class="form-control" id="email" placeholder="Email address" required>
+                                                </div>
+                                                <div class="form-group">
+                                                     <label class="sr-only" for="exampleInputPassword2">Password</label>
+                                                     <input type="password" class="form-control" id="password" placeholder="Password" required>
+                                                     <div class="checkbox">
+                                                          <label>
+                                                              <input type="checkbox"><span> keep me logged-in </span>
+                                                          </label>
+                                                     </div>
+                                                     <div class="help-block text-right"><a href="">Forgot your password ?</a></div>
+                                                </div>
+                                                <div class="form-group">
+                                                     <button type="submit" class="btn btn-primary btn-block no-rounded-corners">Sign in</button>
+                                                </div>
+                                         </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container_fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html"> Joshua Jenkins </a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html"> Home </a></li>
-                    <li><a href="#"> Page 1 </a></li>
-                    <li><a href="#"> Page 2 </a></li>
-                    <li><a href="#"> Page 3 </a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up </a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
-                </ul>
-            </div>
-        </nav>
         <script src="scripts/navbar.js"></script>
     </body>
 </html>
