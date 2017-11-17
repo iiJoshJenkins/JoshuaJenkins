@@ -37,3 +37,13 @@
     border-right-width: 2px;
     border-right-color: #1A1F24;
 }
+
+#game-canvas{
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+}
