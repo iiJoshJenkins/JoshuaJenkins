@@ -15,17 +15,21 @@
     background-color:#59b5fa;
 }
 #login-dropdown{
-    min-width: 250px;
+    min-width: 275px;
 }
 
 .social-buttons{
-    margin: 12px;
+    margin: 5px;
 }
 
 .social-buttons a{
     width: 49%;
 }
 
+.dropDownSignIn{
+    padding-left: 35px;
+    padding-right: 35px;
+}
 .no-rounded-corners{
     border-radius: 0;
 }
