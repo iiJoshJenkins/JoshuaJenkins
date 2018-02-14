@@ -42,12 +42,9 @@
     border-right-color: #1A1F24;
 }
 
-#game-canvas{
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
+#LangtonsAnt{
     display: block;
-    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid #000000;
 }
